@@ -1017,9 +1017,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@via-profit-services/core@file://home/dhs/Projects/@via-profit-services/core/package-0.31.6-rc.44.tgz::locator=%40via-profit-services%2Fredis%40workspace%3A.":
-  version: 0.31.6-rc.44
-  resolution: "@via-profit-services/core@file://home/dhs/Projects/@via-profit-services/core/package-0.31.6-rc.44.tgz::locator=%40via-profit-services%2Fredis%40workspace%3A."
+"@via-profit-services/core@file://home/dhs/Projects/@via-profit-services/core/package-0.31.6-rc.50.tgz::locator=%40via-profit-services%2Fredis%40workspace%3A.":
+  version: 0.31.6-rc.50
+  resolution: "@via-profit-services/core@file://home/dhs/Projects/@via-profit-services/core/package-0.31.6-rc.50.tgz::locator=%40via-profit-services%2Fredis%40workspace%3A."
   dependencies:
     bufferutil: ^4.0.2
     content-type: ^1.0.4
@@ -1038,7 +1038,7 @@ __metadata:
       optional: true
     utf-8-validate:
       optional: true
-  checksum: 04f32a6df0d9afa88174b3c4a8e1bde987e1f55826e1813aaa9e2694a0ae76b892da1cd601505d849d38421a1e28dd847f630ae70829e503bc0cf7d6af4e52fd
+  checksum: dfa5f277559e73c89b32ca2e3046a87f80d52f849f062fe1aa9e3a39df4ff27abd75f06a1aec55f69049662e648e79062ec9b0c1d65c0bdeca487e9f04e6f0b3
   languageName: node
   linkType: hard
 
@@ -1068,7 +1068,7 @@ __metadata:
     "@types/webpack-node-externals": ^1.7.0
     "@typescript-eslint/eslint-plugin": ^4.6.1
     "@typescript-eslint/parser": ^4.6.1
-    "@via-profit-services/core": "file://home/dhs/Projects/@via-profit-services/core/package-0.31.6-rc.44.tgz"
+    "@via-profit-services/core": "file://home/dhs/Projects/@via-profit-services/core/package-0.31.6-rc.50.tgz"
     "@via-profit-services/eslint-config": ^0.1.11
     "@zerollup/ts-transform-paths": ^1.7.11
     cors: ^2.8.5

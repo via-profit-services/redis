@@ -52,7 +52,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/webpack-node-externals", "npm:1.7.1"],
             ["@typescript-eslint/eslint-plugin", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#npm:4.8.2"],
             ["@typescript-eslint/parser", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#npm:4.8.2"],
-            ["@via-profit-services/core", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#file://home/dhs/Projects/@via-profit-services/core/package-0.31.6-rc.44.tgz::locator=%40via-profit-services%2Fredis%40workspace%3A."],
+            ["@via-profit-services/core", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#file://home/dhs/Projects/@via-profit-services/core/package-0.31.6-rc.50.tgz::locator=%40via-profit-services%2Fredis%40workspace%3A."],
             ["@via-profit-services/eslint-config", "npm:0.1.11"],
             ["@zerollup/ts-transform-paths", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#npm:1.7.18"],
             ["cors", "npm:2.8.5"],
@@ -1271,10 +1271,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@via-profit-services/core", [
-        ["virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#file://home/dhs/Projects/@via-profit-services/core/package-0.31.6-rc.44.tgz::locator=%40via-profit-services%2Fredis%40workspace%3A.", {
-          "packageLocation": "./.yarn/$$virtual/@via-profit-services-core-virtual-f449d8c1d1/0/cache/@via-profit-services-core-file-4052ef501a-04f32a6df0.zip/node_modules/@via-profit-services/core/",
+        ["virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#file://home/dhs/Projects/@via-profit-services/core/package-0.31.6-rc.50.tgz::locator=%40via-profit-services%2Fredis%40workspace%3A.", {
+          "packageLocation": "./.yarn/$$virtual/@via-profit-services-core-virtual-8c94710fee/0/cache/@via-profit-services-core-file-c89c80d458-dfa5f27755.zip/node_modules/@via-profit-services/core/",
           "packageDependencies": [
-            ["@via-profit-services/core", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#file://home/dhs/Projects/@via-profit-services/core/package-0.31.6-rc.44.tgz::locator=%40via-profit-services%2Fredis%40workspace%3A."],
+            ["@via-profit-services/core", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#file://home/dhs/Projects/@via-profit-services/core/package-0.31.6-rc.50.tgz::locator=%40via-profit-services%2Fredis%40workspace%3A."],
             ["@types/dataloader", null],
             ["@types/express", null],
             ["@types/graphql", null],
@@ -1342,7 +1342,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/webpack-node-externals", "npm:1.7.1"],
             ["@typescript-eslint/eslint-plugin", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#npm:4.8.2"],
             ["@typescript-eslint/parser", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#npm:4.8.2"],
-            ["@via-profit-services/core", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#file://home/dhs/Projects/@via-profit-services/core/package-0.31.6-rc.44.tgz::locator=%40via-profit-services%2Fredis%40workspace%3A."],
+            ["@via-profit-services/core", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#file://home/dhs/Projects/@via-profit-services/core/package-0.31.6-rc.50.tgz::locator=%40via-profit-services%2Fredis%40workspace%3A."],
             ["@via-profit-services/eslint-config", "npm:0.1.11"],
             ["@zerollup/ts-transform-paths", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#npm:1.7.18"],
             ["cors", "npm:2.8.5"],
