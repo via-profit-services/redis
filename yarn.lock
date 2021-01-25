@@ -1017,9 +1017,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@via-profit-services/core@file://home/dhs/Projects/@via-profit-services/core/package-0.31.6-rc.44.tgz::locator=%40via-profit-services%2Fredis%40workspace%3A.":
-  version: 0.31.6-rc.44
-  resolution: "@via-profit-services/core@file://home/dhs/Projects/@via-profit-services/core/package-0.31.6-rc.44.tgz::locator=%40via-profit-services%2Fredis%40workspace%3A."
+"@via-profit-services/core@file://home/dhs/Projects/@via-profit-services/core/package-1.0.0-rc.1.tgz::locator=%40via-profit-services%2Fredis%40workspace%3A.":
+  version: 1.0-rc.1
+  resolution: "@via-profit-services/core@file://home/dhs/Projects/@via-profit-services/core/package-1.0.0-rc.1.tgz::locator=%40via-profit-services%2Fredis%40workspace%3A."
   dependencies:
     bufferutil: ^4.0.2
     content-type: ^1.0.4
@@ -1038,7 +1038,7 @@ __metadata:
       optional: true
     utf-8-validate:
       optional: true
-  checksum: 04f32a6df0d9afa88174b3c4a8e1bde987e1f55826e1813aaa9e2694a0ae76b892da1cd601505d849d38421a1e28dd847f630ae70829e503bc0cf7d6af4e52fd
+  checksum: 061625c2014e55f7e07cbc7235bb240d44513388b3f0ca3ce35d33e45f78c887340db9f87a0ed92912d59764a5d032b21f988c7eba4ea26e368be90c6aa1eda9
   languageName: node
   linkType: hard
 
@@ -1068,7 +1068,7 @@ __metadata:
     "@types/webpack-node-externals": ^1.7.0
     "@typescript-eslint/eslint-plugin": ^4.6.1
     "@typescript-eslint/parser": ^4.6.1
-    "@via-profit-services/core": "file://home/dhs/Projects/@via-profit-services/core/package-0.31.6-rc.44.tgz"
+    "@via-profit-services/core": "file://home/dhs/Projects/@via-profit-services/core/package-1.0.0-rc.1.tgz"
     "@via-profit-services/eslint-config": ^0.1.11
     "@zerollup/ts-transform-paths": ^1.7.11
     cors: ^2.8.5
@@ -1114,8 +1114,8 @@ __metadata:
     winston: ^3.3.3
     winston-daily-rotate-file: ^4.5.0
   peerDependencies:
-    "@via-profit-services/core": "*"
-    ioredis: ^4.19.4
+    "@via-profit-services/core": ^1.0.0
+    ioredis: "*"
   languageName: unknown
   linkType: soft
 
