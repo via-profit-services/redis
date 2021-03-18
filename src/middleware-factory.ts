@@ -8,7 +8,7 @@ const middlewareFactory: RedisMiddlewareFactory = (config) => {
     const { logger } = context;
 
     try {
-      context.redis = context.redis ?? redisFactory(config, logger.server);
+      context.redis = redisFactory(config, logger.server);
 
       return {
         context,
