@@ -1,5 +1,5 @@
 import type { RedisFactory } from '@via-profit-services/redis';
-import IORedis, { RedisOptions } from 'ioredis';
+import IORedis, { RedisOptions, Redis } from 'ioredis';
 
 import {
   DEFAULT_REDIS_HOST,
@@ -7,7 +7,19 @@ import {
   DEFAULT_REDIS_PORT,
 } from './constants';
 
+type Cache = {
+  redis: Redis;
+}
+
+const cache: Cache = {
+  redis: null,
+}
+
 const redisFactory: RedisFactory = (props, logger) => {
+
+  if (cache.redis) {
+    return cache.redis;
+  }
 
   const redisOptions: RedisOptions = {
     port: DEFAULT_REDIS_PORT,
@@ -17,28 +29,28 @@ const redisFactory: RedisFactory = (props, logger) => {
     ...props,
   };
 
-  const redis = new IORedis(redisOptions);
+  cache.redis = new IORedis(redisOptions);
 
   if (logger) {
 
-    redis.on('error', (err) => {
+    cache.redis.on('error', (err) => {
       logger.error(`Redis Common error ${err.errno}`, { err });
     });
 
-    redis.on('connect', () => {
+    cache.redis.on('connect', () => {
       logger.debug('Redis common connection is Done');
     });
 
-    redis.on('reconnecting', () => {
+    cache.redis.on('reconnecting', () => {
       logger.debug('Redis common reconnecting');
     });
 
-    redis.on('close', () => {
+    cache.redis.on('close', () => {
       logger.debug('Redis common close');
     });
   }
 
-  return redis;
+  return cache.redis;
 }
 
 export default redisFactory;
