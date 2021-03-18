@@ -52,7 +52,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/webpack-node-externals", "npm:1.7.1"],
             ["@typescript-eslint/eslint-plugin", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#npm:4.8.2"],
             ["@typescript-eslint/parser", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#npm:4.8.2"],
-            ["@via-profit-services/core", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#file://home/dhs/Projects/@via-profit-services/core/package-1.0.0-rc.1.tgz::locator=%40via-profit-services%2Fredis%40workspace%3A."],
+            ["@via-profit-services/core", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#npm:1.0.5"],
             ["@via-profit-services/eslint-config", "npm:0.1.11"],
             ["@zerollup/ts-transform-paths", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#npm:1.7.18"],
             ["cors", "npm:2.8.5"],
@@ -1271,10 +1271,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["@via-profit-services/core", [
-        ["virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#file://home/dhs/Projects/@via-profit-services/core/package-1.0.0-rc.1.tgz::locator=%40via-profit-services%2Fredis%40workspace%3A.", {
-          "packageLocation": "./.yarn/$$virtual/@via-profit-services-core-virtual-ffce8be33f/0/cache/@via-profit-services-core-file-1ac84819ea-061625c201.zip/node_modules/@via-profit-services/core/",
+        ["virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#npm:1.0.5", {
+          "packageLocation": "./.yarn/$$virtual/@via-profit-services-core-virtual-c525c3a805/0/cache/@via-profit-services-core-npm-1.0.5-60a1610ede-70166fa0c9.zip/node_modules/@via-profit-services/core/",
           "packageDependencies": [
-            ["@via-profit-services/core", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#file://home/dhs/Projects/@via-profit-services/core/package-1.0.0-rc.1.tgz::locator=%40via-profit-services%2Fredis%40workspace%3A."],
+            ["@via-profit-services/core", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#npm:1.0.5"],
             ["@types/dataloader", null],
             ["@types/express", null],
             ["@types/graphql", null],
@@ -1342,7 +1342,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/webpack-node-externals", "npm:1.7.1"],
             ["@typescript-eslint/eslint-plugin", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#npm:4.8.2"],
             ["@typescript-eslint/parser", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#npm:4.8.2"],
-            ["@via-profit-services/core", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#file://home/dhs/Projects/@via-profit-services/core/package-1.0.0-rc.1.tgz::locator=%40via-profit-services%2Fredis%40workspace%3A."],
+            ["@via-profit-services/core", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#npm:1.0.5"],
             ["@via-profit-services/eslint-config", "npm:0.1.11"],
             ["@zerollup/ts-transform-paths", "virtual:7e761c5ce25c20714291b95399f75916467d8ec2d17844546511abef9a72325ed7c96736ee67fd28d39c212618a5185b3ada956e361be5110eed200850fc5558#npm:1.7.18"],
             ["cors", "npm:2.8.5"],
