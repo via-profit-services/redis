@@ -649,12 +649,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/ioredis@npm:^4.17.9":
-  version: 4.17.9
-  resolution: "@types/ioredis@npm:4.17.9"
+"@types/ioredis@npm:^4.26.4":
+  version: 4.26.4
+  resolution: "@types/ioredis@npm:4.26.4"
   dependencies:
     "@types/node": "*"
-  checksum: d4acf0764d254449984bc8dc050b1251a1f3e37ae2717f78fb701b9a6e48a0ca7dbf2c91efc0cb6d345ccb3c47239094f72b774010e34fa8fde6851dc42d653f
+  checksum: 0138b8c3c290b4917529d797380a31f365756ac9056525dc19a6eb91e9f8484e1116fc249b91001ac3bf1ddcfbd68f1b685d83f63b4e4751022bb000dd7347ea
   languageName: node
   linkType: hard
 
@@ -1017,9 +1017,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@via-profit-services/core@npm:^1.0.5":
-  version: 1.0.5
-  resolution: "@via-profit-services/core@npm:1.0.5"
+"@via-profit-services/core@npm:^1.1.9":
+  version: 1.1.9
+  resolution: "@via-profit-services/core@npm:1.1.9"
   dependencies:
     bufferutil: ^4.0.2
     content-type: ^1.0.4
@@ -1038,7 +1038,7 @@ __metadata:
       optional: true
     utf-8-validate:
       optional: true
-  checksum: 70166fa0c9d99336224af96b3d451a2da715988a02208858bf176ab7cfcba9762e9b585bf010c9e0894066662a45333c8f9445c6ffc5e8099837a0a2e2b0c403
+  checksum: a8890424f8a7d053e9938d23cd196aaeffce6d0c12178de8f4ada2471df09aa7f88e30614df9936030552a4e82e89ae597ca097990189c656f82fcf6b6ff1894
   languageName: node
   linkType: hard
 
@@ -1056,7 +1056,7 @@ __metadata:
     "@jagi/jest-transform-graphql": ^1.0.2
     "@types/bluebird": ^3.5.29
     "@types/cors": ^2.8.6
-    "@types/ioredis": ^4.17.9
+    "@types/ioredis": ^4.26.4
     "@types/jest": ^24.0.23
     "@types/node": ^14.14.16
     "@types/nodemon": ^1.19.0
@@ -1068,7 +1068,7 @@ __metadata:
     "@types/webpack-node-externals": ^1.7.0
     "@typescript-eslint/eslint-plugin": ^4.6.1
     "@typescript-eslint/parser": ^4.6.1
-    "@via-profit-services/core": ^1.0.5
+    "@via-profit-services/core": ^1.1.9
     "@via-profit-services/eslint-config": ^0.1.11
     "@zerollup/ts-transform-paths": ^1.7.11
     cors: ^2.8.5
@@ -1104,7 +1104,7 @@ __metadata:
     ts-loader: ^6.2.1
     ts-node: ^8.6.2
     tsconfig-paths-webpack-plugin: ^3.3.0
-    typescript: ^3.7.2
+    typescript: ^4.2.4
     webpack: ^5.4.0
     webpack-bundle-analyzer: ^4.2.0
     webpack-cli: ^4.2.0
@@ -1114,8 +1114,8 @@ __metadata:
     winston: ^3.3.3
     winston-daily-rotate-file: ^4.5.0
   peerDependencies:
-    "@via-profit-services/core": ^1.0.0
-    ioredis: "*"
+    "@via-profit-services/core": ^1.1.9
+    ioredis: ^4.27.2
   languageName: unknown
   linkType: soft
 
@@ -10140,23 +10140,23 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-typescript@^3.7.2:
-  version: 3.9.7
-  resolution: "typescript@npm:3.9.7"
+typescript@^4.2.4:
+  version: 4.2.4
+  resolution: "typescript@npm:4.2.4"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10848a9c35fd8c70a8792b8bd9485317534bcd58768793d3b7d9c7486e9fd30cf345f83fa2a324e0bf6088bc8a4d8d061d58fda38b18c2ff187cf01fbbff6267
+  checksum: edaede2fa77f56b7fba80ee624a2368ab1216e75b0434d968ccb47ab0a5e2f6d94f848b3b111c1237dd71e988cd376af26370dcdad3b94355c76e759f0dd0a1e
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^3.7.2#builtin<compat/typescript>":
-  version: 3.9.7
-  resolution: "typescript@patch:typescript@npm%3A3.9.7#builtin<compat/typescript>::version=3.9.7&hash=5bf698"
+"typescript@patch:typescript@^4.2.4#builtin<compat/typescript>":
+  version: 4.2.4
+  resolution: "typescript@patch:typescript@npm%3A4.2.4#builtin<compat/typescript>::version=4.2.4&hash=5bf698"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: f0d3d9c987860c7c458229ab6dd7e3d322405db36b70abccba610b5efd9f9451e4e67a3fc7983c0d3741033c1f1a8d7aa859a1510caa8f20fad762fc39648bfa
+  checksum: c8e7adb9f29110a3b0e51d198e7d736a572e82459f02f347ae90bd2737bf80366ee80b4de772aea0951e3ba6c4c71b7e1ed9d524f4ad0b3737bb0611aa2c931a
   languageName: node
   linkType: hard
 

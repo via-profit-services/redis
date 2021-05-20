@@ -11,7 +11,8 @@
     "keywords": [
         "graphql",
         "via-profit",
-        "redis"
+        "redis",
+        "dataloader"
     ],
     "scripts": {
         "dist": "yarn lint && yarn test && yarn build:dist",
@@ -43,14 +44,14 @@
     ],
     "license": "MIT",
     "peerDependencies": {
-        "@via-profit-services/core": "^1.0.0",
-        "ioredis": "*"
+        "@via-profit-services/core": "^1.1.9",
+        "ioredis": "^4.27.2"
     },
     "devDependencies": {
         "@jagi/jest-transform-graphql": "^1.0.2",
         "@types/bluebird": "^3.5.29",
         "@types/cors": "^2.8.6",
-        "@types/ioredis": "^4.17.9",
+        "@types/ioredis": "^4.26.4",
         "@types/jest": "^24.0.23",
         "@types/node": "^14.14.16",
         "@types/nodemon": "^1.19.0",
@@ -62,7 +63,7 @@
         "@types/webpack-node-externals": "^1.7.0",
         "@typescript-eslint/eslint-plugin": "^4.6.1",
         "@typescript-eslint/parser": "^4.6.1",
-        "@via-profit-services/core": "^1.0.5",
+        "@via-profit-services/core": "^1.1.9",
         "@via-profit-services/eslint-config": "^0.1.11",
         "@zerollup/ts-transform-paths": "^1.7.11",
         "cors": "^2.8.5",
@@ -98,7 +99,7 @@
         "ts-loader": "^6.2.1",
         "ts-node": "^8.6.2",
         "tsconfig-paths-webpack-plugin": "^3.3.0",
-        "typescript": "^3.7.2",
+        "typescript": "^4.2.4",
         "webpack": "^5.4.0",
         "webpack-bundle-analyzer": "^4.2.0",
         "webpack-cli": "^4.2.0",
