@@ -24,7 +24,7 @@ declare module '@via-profit-services/redis' {
 
   export type InitialProps = RedisOptions;
   export type RedisFactory = (options: RedisOptions, logger?: Logger) => Redis;
-  export type RedisMiddlewareFactory = (props: InitialProps) => Middleware;
+  export type RedisMiddlewareFactory = (props?: InitialProps) => Middleware;
 
   /**
    * ioRedis factory
